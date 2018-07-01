@@ -1,7 +1,7 @@
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	$con=mysqli_connect("localhost","yourUsername","yourPassword","yourDatabaseName");
+	$con=mysqli_connect("localhost","yourUsername","yourPassword","dreams");
  
 	if (mysqli_connect_errno()) {
 		echo "database connection failed";
